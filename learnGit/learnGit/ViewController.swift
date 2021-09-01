@@ -10,9 +10,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var lableText: UILabel!
+    var btnButton = UIButton()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        lableText.text = "Hà Hữu Hải"
+    }
+    
+    func setupButton() {
+        view.addSubview(btnButton)
     }
 
 
